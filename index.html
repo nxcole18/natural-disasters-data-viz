@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Cost of Natural Disasters</title>
+    <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@1&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body> 
+
+    <div class="container">
+        <h1>The Cost of Natural Disasters</h1>
+        <ul class="legend" >
+            <li class="legend-item" disaster="winter-storm-freeze"><span class="legend-symbol"></span>Winter storms, freezing</li>
+            <li class="legend-item" disaster="flooding"><span class="legend-symbol"></span>Flooding</li>
+            <li class="legend-item" disaster="severe-storm"><span class="legend-symbol"></span>Severe storms</li>
+            <li class="legend-item" disaster="drought-wildfire"><span class="legend-symbol"></span>Drought and wildfire</li>
+            <li class="legend-item" disaster="tropical-cyclone"><span class="legend-symbol"></span>Tropical cyclones</li>
+        </ul>
+        <div id="vis"></div>
+        
+        <div id="tooltip"></div>
+    </div>
+
+    
+    
+    <script src="js/d3.v6.min.js"></script>
+    <script src="js/timeline.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

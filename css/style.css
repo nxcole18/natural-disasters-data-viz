@@ -1,0 +1,107 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 13px;
+  padding: 30px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Castoro', serif;
+  font-style: italic;
+  font-size: 2rem;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.y-axis {
+  color: #2e2e2e;
+  font-size: 12px;
+}
+
+.x-axis {
+  color: #2e2e2e;
+  font-size: 12px;
+}
+
+.y-axis line {
+  stroke: #959595;
+}
+
+.y-axis path {
+  stroke: #ffffff;
+}
+
+.x-axis line {
+  stroke: #959595;
+}
+
+
+ul {
+  font-size: 14px;
+  list-style: none;
+  columns: 2;
+  width: 50%;
+}
+
+legend {
+  list-style: none;
+}
+
+.legend-symbol {
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  border-radius: 6px;
+  outline-style: solid;
+  outline-width: 0.8px;
+  outline-color: #737373;
+  display: inline-block;
+}
+
+.legend-item.inactive {
+  opacity: 0.5;
+}
+
+.legend-item[disaster="winter-storm-freeze"] .legend-symbol {
+  background: #ccc;
+}
+
+.legend-item[disaster="tropical-cyclone"] .legend-symbol {
+  background: #081d58;
+}
+
+.legend-item[disaster="flooding"] .legend-symbol {
+  background: #41b6c4;
+}
+
+.legend-item[disaster="drought-wildfire"] .legend-symbol {
+  background: #ffffd9;
+}
+
+.legend-item[disaster="severe-storm"] .legend-symbol {
+  background: #c7e9b4;
+}
+
+
+#tooltip {
+  position: absolute;
+  display: none;
+  background: #fff;
+  box-shadow: 3px 3px 3px 0px rgb(92 92 92 / 0.5);
+  border: 1px solid #ddd;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px;
+  min-width: 160px;
+  color: #333;
+}
+.tooltip-title {
+  color: #333;
+  font-size: 12px;
+  font-weight: 400; 
+}
+
